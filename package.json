@@ -1,0 +1,25 @@
+{
+  "name": "learn_npm",
+  "version": "1.0.0",
+  "description": "plik package.json to learn npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "learn npm node"
+  },
+  "keywords": [
+    "nauka",
+    "npm",
+    "node"
+  ],
+  "author": "devGosia",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "stat-mode": "^0.2.2"
+  }
+}
