@@ -11,7 +11,6 @@ server.on('request', function (request, response) {
             response.end();
             });
     } else {
-//        response.statusCode = 404;
         fs.readFile('./cat.jpg', 'utf-8', function(err, data) {
             response.writeHead(404, {'Content-Type': 'image/jpg'});
             response.write(data);
